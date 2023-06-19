@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://itzsujithvarma.github.io/CartMFE",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "Sujith",
@@ -16,6 +19,7 @@
     "@babel/preset-react": "^7.22.3",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.8.1",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
