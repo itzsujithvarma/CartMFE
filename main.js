@@ -15,7 +15,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("Promise.all(/*! import() */[__webpack_require__.e(\"webpack_sharing_consume_default_react_react\"), __webpack_require__.e(\"src_Components_Cart_js\"), __webpack_require__.e(\"src_bootstrap_js\")]).then(__webpack_require__.bind(__webpack_require__, /*! ./bootstrap */ \"./src/bootstrap.js\"));\n\n//# sourceURL=webpack://meals/./src/index.js?");
+eval("Promise.all(/*! import() */[__webpack_require__.e(\"webpack_sharing_consume_default_react_react\"), __webpack_require__.e(\"src_Components_Cart_js\"), __webpack_require__.e(\"src_bootstrap_js\")]).then(__webpack_require__.bind(__webpack_require__, /*! ./bootstrap */ \"./src/bootstrap.js\"));\n\n//# sourceURL=webpack://cart/./src/index.js?");
 
 /***/ })
 
@@ -121,7 +121,7 @@ eval("Promise.all(/*! import() */[__webpack_require__.e(\"webpack_sharing_consum
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "meals:";
+/******/ 		var dataWebpackPrefix = "cart:";
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -204,7 +204,7 @@ eval("Promise.all(/*! import() */[__webpack_require__.e(\"webpack_sharing_consum
 /******/ 			var warn = (msg) => {
 /******/ 				if (typeof console !== "undefined" && console.warn) console.warn(msg);
 /******/ 			};
-/******/ 			var uniqueName = "meals";
+/******/ 			var uniqueName = "cart";
 /******/ 			var register = (name, version, factory, eager) => {
 /******/ 				var versions = scope[name] = scope[name] || {};
 /******/ 				var activeVersion = versions[version];
@@ -521,7 +521,7 @@ eval("Promise.all(/*! import() */[__webpack_require__.e(\"webpack_sharing_consum
 /******/ 		
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkmeals"] = self["webpackChunkmeals"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunkcart"] = self["webpackChunkcart"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();

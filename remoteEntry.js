@@ -17,7 +17,7 @@ var cart;
   \***********************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("var moduleMap = {\n\t\"./CartIndex\": () => {\n\t\treturn Promise.all([__webpack_require__.e(\"webpack_sharing_consume_default_react_react\"), __webpack_require__.e(\"src_Components_Cart_js\")]).then(() => (() => ((__webpack_require__(/*! ./src/Components/Cart */ \"./src/Components/Cart.js\")))));\n\t}\n};\nvar get = (module, getScope) => {\n\t__webpack_require__.R = getScope;\n\tgetScope = (\n\t\t__webpack_require__.o(moduleMap, module)\n\t\t\t? moduleMap[module]()\n\t\t\t: Promise.resolve().then(() => {\n\t\t\t\tthrow new Error('Module \"' + module + '\" does not exist in container.');\n\t\t\t})\n\t);\n\t__webpack_require__.R = undefined;\n\treturn getScope;\n};\nvar init = (shareScope, initScope) => {\n\tif (!__webpack_require__.S) return;\n\tvar name = \"default\"\n\tvar oldScope = __webpack_require__.S[name];\n\tif(oldScope && oldScope !== shareScope) throw new Error(\"Container initialization failed as it has already been initialized with a different share scope\");\n\t__webpack_require__.S[name] = shareScope;\n\treturn __webpack_require__.I(name, initScope);\n};\n\n// This exports getters to disallow modifications\n__webpack_require__.d(exports, {\n\tget: () => (get),\n\tinit: () => (init)\n});\n\n//# sourceURL=webpack://meals/container_entry?");
+eval("var moduleMap = {\n\t\"./CartIndex\": () => {\n\t\treturn Promise.all([__webpack_require__.e(\"webpack_sharing_consume_default_react_react\"), __webpack_require__.e(\"src_Components_Cart_js\")]).then(() => (() => ((__webpack_require__(/*! ./src/Components/Cart */ \"./src/Components/Cart.js\")))));\n\t}\n};\nvar get = (module, getScope) => {\n\t__webpack_require__.R = getScope;\n\tgetScope = (\n\t\t__webpack_require__.o(moduleMap, module)\n\t\t\t? moduleMap[module]()\n\t\t\t: Promise.resolve().then(() => {\n\t\t\t\tthrow new Error('Module \"' + module + '\" does not exist in container.');\n\t\t\t})\n\t);\n\t__webpack_require__.R = undefined;\n\treturn getScope;\n};\nvar init = (shareScope, initScope) => {\n\tif (!__webpack_require__.S) return;\n\tvar name = \"default\"\n\tvar oldScope = __webpack_require__.S[name];\n\tif(oldScope && oldScope !== shareScope) throw new Error(\"Container initialization failed as it has already been initialized with a different share scope\");\n\t__webpack_require__.S[name] = shareScope;\n\treturn __webpack_require__.I(name, initScope);\n};\n\n// This exports getters to disallow modifications\n__webpack_require__.d(exports, {\n\tget: () => (get),\n\tinit: () => (init)\n});\n\n//# sourceURL=webpack://cart/container_entry?");
 
 /***/ })
 
@@ -123,7 +123,7 @@ eval("var moduleMap = {\n\t\"./CartIndex\": () => {\n\t\treturn Promise.all([__w
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "meals:";
+/******/ 		var dataWebpackPrefix = "cart:";
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -206,7 +206,7 @@ eval("var moduleMap = {\n\t\"./CartIndex\": () => {\n\t\treturn Promise.all([__w
 /******/ 			var warn = (msg) => {
 /******/ 				if (typeof console !== "undefined" && console.warn) console.warn(msg);
 /******/ 			};
-/******/ 			var uniqueName = "meals";
+/******/ 			var uniqueName = "cart";
 /******/ 			var register = (name, version, factory, eager) => {
 /******/ 				var versions = scope[name] = scope[name] || {};
 /******/ 				var activeVersion = versions[version];
@@ -523,7 +523,7 @@ eval("var moduleMap = {\n\t\"./CartIndex\": () => {\n\t\treturn Promise.all([__w
 /******/ 		
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkmeals"] = self["webpackChunkmeals"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunkcart"] = self["webpackChunkcart"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
